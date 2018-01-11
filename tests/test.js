@@ -145,7 +145,7 @@ describe('webfont', function() {
 		var TEMPLATE_OPTIONS = {
 			option: 'TEST'
 		}
-		var RENDERED_TEMPLATE = 'custom template ' + TEMPLATE_OPTIONS.option + '\n'
+		var RENDERED_TEMPLATE = 'custom template ' + TEMPLATE_OPTIONS.option + '\r\n'
 
 		it('uses custom css template', function(done) {
 			var options = _.extend({}, OPTIONS, {
